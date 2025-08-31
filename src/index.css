@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-sora {
+    font-family: "Sora", sans-serif;
+  }
+
+  .font-manrope {
+    font-family: "Manrope", sans-serif;
+  }
+}
+  
