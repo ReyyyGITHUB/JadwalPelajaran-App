@@ -269,42 +269,42 @@ export default function Home() {
         <div className="absolute top-1/2 left-1/3 w-20 h-20 bg-cyan-400/10 rounded-full blur-xl"></div>
       </div>
 
-      <div className="px-4 sm:px-6 mt-12 sm:mt-16 flex flex-col justify-between w-full relative z-10">
+      <div className="mx-6 mt-16 flex flex-col justify-between w-full relative z-10">
         <div className="flex flex-col">
-          {/* App Title with better mobile spacing */}
-          <div className="flex flex-col mb-12 sm:mb-20">
+          {/* App Title with better visual hierarchy */}
+          <div className="flex flex-col mb-20 animate-in slide-in-from-top duration-700">
             <div className="flex items-center gap-2 mb-2">
-              <div className="w-2 h-2 bg-emerald-400 rounded-full"></div>
-              <span className="font-semibold text-emerald-300 text-xs sm:text-sm uppercase tracking-widest">
+              <div className="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></div>
+              <span className="font-sora font-semibold text-emerald-300 text-sm uppercase tracking-widest">
                 Jadwal X PPLG 2
               </span>
             </div>
-            <span className="font-bold text-white text-base sm:text-lg">Jadwal Pelajaran Harian</span>
+            <span className="font-sora font-bold text-white text-lg">Jadwal Pelajaran Harian</span>
           </div>
 
-          {/* Main Heading with mobile-friendly typography */}
-          <div className="flex flex-col gap-4 sm:gap-6">
-            <h1 className="font-bold text-2xl sm:text-4xl text-white leading-tight">
+          {/* Main Heading with enhanced typography */}
+          <div className="flex flex-col gap-6 animate-in slide-in-from-left duration-700 delay-200">
+            <h1 className="font-sora font-bold text-4xl text-white leading-tight">
               Kelola Jadwal harian, <br />
               <span className="bg-gradient-to-r from-emerald-400 to-teal-400 bg-clip-text text-transparent">
                 Ruang, dan Nama Guru
               </span>
               <br />dengan mudah.
             </h1>
-            <p className="font-normal text-sm sm:text-base text-slate-300 leading-relaxed max-w-md">
+            <p className="font-manrope font-normal text-base text-slate-300 leading-relaxed max-w-md">
               Cukup buka sekali, semua mata pelajaran dan info penting langsung siap di depan mata
             </p>
           </div>
 
-          {/* Mobile-friendly CTA Buttons */}
-          <div className="flex flex-col gap-3 mt-12 sm:mt-16">
+          {/* Enhanced CTA Buttons */}
+          <div className="flex flex-col sm:flex-row gap-4 mt-16 animate-in slide-in-from-bottom duration-700 delay-400">
             <button 
               onClick={handleShowJadwal}
-              className="group relative overflow-hidden bg-gradient-to-r from-emerald-500/20 to-teal-500/20 text-left px-6 py-4 rounded-xl border border-emerald-500/30 hover:from-emerald-500/30 hover:to-teal-500/30 transition-all duration-300 backdrop-blur-sm"
+              className="group relative overflow-hidden bg-gradient-to-r from-emerald-500/20 to-teal-500/20 flex-1 text-left px-8 py-4 rounded-2xl border border-emerald-500/30 hover:from-emerald-500/30 hover:to-teal-500/30 transition-all duration-300 hover:scale-105 hover:shadow-xl backdrop-blur-sm"
             >
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-400/10 to-teal-400/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               <div className="relative flex items-center justify-between">
-                <span className="font-medium text-slate-200 text-sm">
+                <span className="font-manrope font-medium text-slate-200 text-sm">
                   Klik untuk melihat jadwal
                 </span>
                 <svg className="w-5 h-5 text-emerald-400 group-hover:translate-x-1 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -315,33 +315,33 @@ export default function Home() {
 
             <button 
               onClick={handleShowJadwal}
-              className="group relative overflow-hidden bg-gradient-to-r from-emerald-500 to-teal-500 px-6 py-4 rounded-xl hover:from-emerald-600 hover:to-teal-600 transition-all duration-300 shadow-lg"
+              className="group relative overflow-hidden bg-gradient-to-r from-emerald-500 to-teal-500 px-8 py-4 rounded-2xl hover:from-emerald-600 hover:to-teal-600 transition-all duration-300 hover:scale-105 hover:shadow-xl shadow-lg min-w-fit"
             >
               <div className="absolute inset-0 bg-gradient-to-r from-white/20 to-white/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               <div className="relative flex items-center justify-center gap-2">
                 <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                 </svg>
-                <span className="font-semibold text-white text-sm">
+                <span className="font-sora font-semibold text-white text-sm">
                   Cek Jadwal
                 </span>
               </div>
             </button>
           </div>
 
-          {/* Update Notice */}
-          <div className="flex flex-col items-center gap-1 mt-10 sm:mt-14">
+          {/* Enhanced Update Notice */}
+          <div className="flex flex-col items-center gap-1 mt-14 animate-in fade-in duration-700 delay-600">
             <div className="flex items-center gap-2 text-slate-400">
               <div className="w-1 h-1 bg-emerald-400 rounded-full"></div>
-              <span className="text-xs">Terakhir diupdate: 17 Agustus 2025</span>
+              <span className="text-xs font-manrope">Terakhir diupdate: 17 Agustus 2025</span>
               <div className="w-1 h-1 bg-emerald-400 rounded-full"></div>
             </div>
           </div>
         </div>
         
-        {/* Footer */}
-        <div className="flex justify-center items-center mt-auto pb-6 sm:pb-8">
-          <span className="text-slate-400 font-light text-xs">
+        {/* Enhanced Footer */}
+        <div className="flex justify-center items-center mt-auto pb-8 animate-in fade-in duration-700 delay-800">
+          <span className="text-slate-400 font-sora font-light text-xs">
             © 2025 Raditya Rayhan. All rights reserved.
           </span>
         </div>
