@@ -12,11 +12,11 @@ export default defineConfig({
       registerType: 'autoUpdate',
       manifest: {
         name: 'Jadwal Pelajaran X PPLG 2',
-        short_name: 'Jadwal',
+        short_name: 'Jadwal Pelajaran',
         description: 'Aplikasi jadwal pelajaran berbasis web',
         theme_color: '#ffffff',
         background_color: '#ffffff',
-        display: 'standalone',
+        display: 'fullscreen',
         start_url: './',
         icons: [
           {
