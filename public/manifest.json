@@ -1,5 +1,5 @@
 {
-  "short_name": "Jadwal",
+  "short_name": "Jadwal Pelajaran",
   "name": "Jadwal Pelajaran X PPLG 2",
   "icons": [
     {
@@ -14,7 +14,7 @@
     }
   ],
   "start_url": ".",
-  "display": "standalone",
+  "display": "fullscreen",
   "theme_color": "#ffffff",
   "background_color": "#ffffff"
 }
