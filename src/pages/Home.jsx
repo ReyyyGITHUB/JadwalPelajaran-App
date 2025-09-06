@@ -120,7 +120,7 @@ export default function Home() {
   };
   return (
     <>
-      <div className="min-h-screen w-full bg-white">
+      <div className="h-screen w-screen bg-white overflow-hidden">
         <div className="flex flex-col items-center justify-center text-center px-[16px] pt-[48px]">
           <div className="HeaderContainer flex justify-between w-full">
             <Header />
