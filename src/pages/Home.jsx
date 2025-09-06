@@ -127,7 +127,7 @@ export default function Home() {
           </div>
 
           <div className="Title plusjakarta flex justify-start w-full mt-[48px] ">
-            <h1 className=" w-[300px] text-[32px] text-black text-left font-med ">
+            <h1 className=" w-[300px] text-[32px] text-black font-semibold text-left font-med ">
               Atur Jadwal Pelajaran Anda
             </h1>
           </div>
@@ -136,7 +136,7 @@ export default function Home() {
             <SearchBar />
           </div>
 
-          <div className="CardContainer flex flex-row w-full mt-12 overflow-x-auto flex-nowrap gap-4 scrollbar-hide">
+          <div className="CardContainer py-[8px] flex flex-row w-full mt-12 overflow-x-auto flex-nowrap gap-4 scrollbar-hide">
             <div className="shrink-0">
               <div className="flex flex-wrap gap-4">
                 {Object.entries(jadwalData).map(([hariKey, data], idx) => (

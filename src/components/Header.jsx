@@ -16,13 +16,7 @@ export default function Header() {
       </div>
 
       {/* Notification Icon */}
-      <div className="w-[32px] h-[32px] items-center justify-center flex">
-        <img
-          src="/assets/notif.png"
-          alt="notification"
-          className="object-contain"
-        />
-      </div>
+      
     </header>
   );
 }
