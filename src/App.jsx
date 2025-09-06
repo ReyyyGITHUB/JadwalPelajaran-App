@@ -1,10 +1,10 @@
-import Home from "./Home";
-import Overlay from "./Overlay";
+import JadwalSnapan from "./JadwalSnapan";
+
 
 export default function App() {
   return (
     <div>
-        <Home />
+        <JadwalSnapan />
     </div>
   );
 }
