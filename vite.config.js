@@ -11,21 +11,21 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       manifest: {
-        name: 'Jadwal Pelajaran X PPLG 2',
-        short_name: 'Jadwal Pelajaran',
-        description: 'Aplikasi jadwal pelajaran berbasis web',
+        name: 'Jamkos - Jadwal Pelajaran',
+        short_name: 'Jamkos',
+        description: 'Aplikasi jadwal pelajaran berbasis web-app',
         theme_color: '#ffffff',
         background_color: '#ffffff',
         display: 'fullscreen',
         start_url: './',
         icons: [
           {
-            src: '/icons/logo2.0.png',
+            src: '/icons/jamkos192.png',
             sizes: '192x192',
             type: 'image/png',
           },
           {
-            src: '/icons/logo2.0.png',
+            src: '/icons/jamkos512.png',
             sizes: '512x512',
             type: 'image/png',
           }

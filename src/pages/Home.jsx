@@ -1,4 +1,5 @@
 import Card from "../components/Card";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import SearchBar from "../components/SearchBar";
 import jadwalData from "../data/jadwalData"; // ✅ Import data dari file baru
@@ -40,9 +41,8 @@ export default function Home() {
           </div>
 
           <div className="fixed left-0 right-0 flex justify-center bottom-8">
-            <p className="text-xs text-gray-400 plusjakarta">
-              © 2025 Raditya Rayhan. All rights reserved.
-            </p>
+            {/* Footer */}
+            <Footer version={"2.0.12"}/>
           </div>
         </div>
       </div>
