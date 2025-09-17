@@ -40,9 +40,9 @@ export default function Home() {
             </h1>
           </div>
 
-          <div className="fixed left-0 right-0 flex justify-center bottom-8">
+          <div className="left-0 right-0 flex justify-center sticky bottom-0 mt-[12px">
             {/* Footer */}
-            <Footer version={"2.0.12"}/>
+            <Footer version={"2.0.12"} />
           </div>
         </div>
       </div>
