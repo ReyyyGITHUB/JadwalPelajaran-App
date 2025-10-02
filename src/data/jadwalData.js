@@ -6,7 +6,7 @@ const jadwalData = {
     jadwal: [
       { mapel: "Agama", jam: "08.30 - 10.00", guru: "Miftahul Maf'ulah, S.Ag" },
       { mapel: "Bahasa Indonesia", jam: "12.15 - 13.45", guru: "Kalim, S.Pd" },
-      { mapel: "Bahasa Inggris", jam: "10.15 - 11.45", guru: "Ever Nicolas, S.Pd" },
+      { mapel: "NICKKOOOOO", jam: "10.15 - 11.45", guru: "Ever Nicolas, S.Pd" },
       { mapel: "PJOK", jam: "14.00 - 15.30", guru: "Dani Eko Prasetiyo, S.Pd" },
     ],
   },

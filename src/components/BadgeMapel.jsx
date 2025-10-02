@@ -1,7 +1,7 @@
 const mapelColors = {
   "Matematika": "bg-blue-200 text-blue-800",
   "Bahasa Indonesia": "bg-green-200 text-green-800",
-  "Bahasa Inggris": "bg-pink-200 text-pink-800",
+  "NICKKOOOOO": "bg-pink-200 text-pink-800",
   "Agama": "bg-purple-200 text-purple-800",
   "PJOK": "bg-orange-200 text-orange-800",
   "Informatika": "bg-teal-200 text-teal-800",
