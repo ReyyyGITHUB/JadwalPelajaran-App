@@ -1,10 +1,13 @@
+// src/App.jsx
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import JadwalSnapan from "./JadwalSnapan";
-
 
 export default function App() {
   return (
-    <div>
-        <JadwalSnapan />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<JadwalSnapan />} />
+      </Routes>
+    </BrowserRouter>
   );
 }

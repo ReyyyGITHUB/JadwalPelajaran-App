@@ -2,7 +2,7 @@
 
 const jadwalData = {
   senin: {
-    ruang: "R Kelas 4",
+    ruang: "Lab PPLG 4",
     jadwal: [
       { mapel: "Agama", jam: "08.30 - 10.00", guru: "Miftahul Maf'ulah, S.Ag" },
       { mapel: "Bahasa Indonesia", jam: "12.15 - 13.45", guru: "Kalim, S.Pd" },
@@ -19,7 +19,7 @@ const jadwalData = {
     ],
   },
   rabu: {
-    ruang: "R Kelas 12",
+    ruang: "RSG 4",
     jadwal: [
       { mapel: "Bahasa Indonesia", jam: "07.00 - 08.30", guru: "Kalim, S.Pd" },
       { mapel: "Matematika", jam: "08.30 - 10.00", guru: "Chofiriyah, S.Pd, M.Pd" },
@@ -29,7 +29,7 @@ const jadwalData = {
     ],
   },
   kamis: {
-    ruang: "R Kelas 11",
+    ruang: "Lab PPLG 1",
     jadwal: [
       { mapel: "Matematika", jam: "07.00 - 08.30", guru: "Chofiriyah, S.Pd, M.Pd" },
       { mapel: "IPAS", jam: "10.15 - 11.45", guru: "Uly Fitrisia Ghani, S.Pd" },

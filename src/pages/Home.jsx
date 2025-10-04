@@ -36,7 +36,7 @@ export default function Home() {
           <div className="flex items-center px-3 py-2 mt-8 bg-gray-100 border border-gray-200 rounded-lg LastUpdate w-fit">
             <h1 className="text-xs font-normal text-gray-600 plusjakarta">
               📝 Note: Terakhir diperbarui pada{" "}
-              <span className="font-medium text-gray-800">18 Agustus 2025</span>
+              <span className="font-medium text-gray-800">04 Oktober 2025</span>
             </h1>
           </div>
 
