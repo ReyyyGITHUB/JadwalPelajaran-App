@@ -4,6 +4,11 @@ import { useEffect, useState } from "react";
 export default function WeeklyNotificationPopup() {
   const [showPopup, setShowPopup] = useState(false);
 
+  const handleVisitSnapan = () => {
+    window.open("https://linktr.ee/jadwalsnapan", "_blank", "noopener,noreferrer");
+    setShowPopup(false);
+  };
+
   useEffect(() => {
     // Munculkan pop-up setiap kali halaman dimuat
     setShowPopup(true);
@@ -22,10 +27,10 @@ export default function WeeklyNotificationPopup() {
           silakan cek jadwal resmi Snapan.
         </p>
         <button
-          onClick={() => setShowPopup(false)}
+          onClick={handleVisitSnapan}
           className="w-full rounded-lg bg-amber-500 px-4 py-2 text-white transition hover:bg-amber-600"
         >
-          Mengerti
+          Website Snapan
         </button>
       </div>
     </div>
