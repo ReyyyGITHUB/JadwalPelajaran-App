@@ -7,8 +7,8 @@ import jadwalData from "../data/jadwalData"; // ✅ Import data dari file baru
 export default function Home() {
   return (
     <>
-      <div className="w-screen h-screen overflow-hidden bg-white">
-        <div className="flex flex-col items-center justify-center text-center px-[16px] pt-[48px]">
+      <div className="bg-white min-h-screen">
+        <div className="max-w-4xl mx-auto flex flex-col items-center justify-center text-center px-4 pt-12 lg:shadow-xl lg:rounded-xl">
           <div className="flex justify-between w-full HeaderContainer">
             <Header />
           </div>
